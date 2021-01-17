@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>client</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <p>Chat App</p>
+        <div class="chat-box">
+           
+        </div>
+        <div class="input-box">
+            <input type="text" class="msgBox"/>
+            <button class="submit btn"><i class="material-icons">&#xe163;</i></button>
+            <button class="image btn"><i class="material-icons">attachment</i></button>
+            <!-- <button class="file">open File</button> -->
+        </div>
+    </div>
+    <div class="container"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
